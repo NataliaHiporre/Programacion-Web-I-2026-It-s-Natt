@@ -234,6 +234,7 @@ En las barras de navegación, es un estándar absoluto agrupar las opciones dent
   - Elemento (<li>) -> Enlace a Puertas (puertas.html)
   - Elemento (<li>) -> Enlace a Ventanas (ventanas.html)
 - Fin de Lista (</ul>)
+</ul>
 
 ---
 
