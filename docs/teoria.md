@@ -334,6 +334,7 @@ Estructura de ejemplo conceptual:
   - Fila de Encabezados: Producto | Cantidad | Precio Unitario
   - Fila de Datos: Puerta de Aluminio | 2 | $230.000
 - Fin de Tabla
+</table>
 
 ---
 
