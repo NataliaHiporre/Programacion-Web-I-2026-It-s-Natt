@@ -4,9 +4,11 @@
 
 #### 1.1 Ley de Ohm
 
+![Imagen 1](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/1.png)
+
 La intensidad de corriente que circula por un circuito es directamente proporcional a la tensión aplicada e inversamente proporcional a su resistencia.
 
-> 📷 **[Espacio para Imagen 1: Triángulo de la Ley de Ohm V / R | I]**
+![Imagen 2](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/2.png)
 
 - **I (Intensidad de corriente):** Es el flujo de electrones que circula por el conductor. Se mide en **Amperes (A)**.
   $$I = \frac{V}{R}$$
@@ -20,19 +22,17 @@ La intensidad de corriente que circula por un circuito es directamente proporcio
 
 #### 1.2 Analogía Hidráulica
 
-Para entender el comportamiento, imagina un circuito como una manguera:
+Para entender el comportamiento, imagina un circuito como una manguera: la tensión es la presión del agua, la intensidad es el caudal que circula y la resistencia es lo angosta que está la manguera.
 
-- La **tensión** es la presión del agua.
-- La **intensidad** es el caudal que circula.
-- La **resistencia** es lo angosta o estrangulada que está la manguera.
-
-**Conclusión:** A más presión (más voltaje) habrá más caudal (más corriente); pero si la manguera se estrangula (más resistencia), pasará menos caudal (menos corriente).
+**Conclusión:** Por ende, a más presión (más voltaje) habrá más caudal (más corriente); pero si la manguera se estrangula (más resistencia), pasará menos caudal (menos corriente).
 
 ---
 
 #### 1.3 Potencia Eléctrica en Corriente Continua (CC)
 
-Es la cantidad de energía transferida por una fuente a un circuito por unidad de tiempo. Por el principio de conservación de la energía, esta no se pierde, sino que se transforma en otra manifestación energética.
+Es la cantidad de energía transferida por una fuente a un circuito por unidad de tiempo. Por el principio de conservación de la energía, esta energía no se pierde, sino que se transforma en otra manifestation energética.
+
+![Imagen 3](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/3.png)
 
 - **P (Potencia):** Es la cantidad de energía transferida o transformada. Se mide en **Watts (W)**.
   $$P = V \cdot I$$
@@ -43,10 +43,10 @@ Es la cantidad de energía transferida por una fuente a un circuito por unidad d
 
 ##### Explicación del Desfase (Uso de la Fórmula)
 
-La fórmula general real de la potencia incluye el desfasaje entre la tensión y la corriente:
+La fórmula general real de la potencia incluye el desfasaje entre la tensión y la corriente, y es:
 $$P = V \cdot I \cdot \cos(\varphi)$$
 
-Sin embargo, en **Corriente Continua (CC)** ese desfasaje es de 0°. Como $\cos(0^\circ) = 1$, la fórmula se simplifica directamente a:
+Sin embargo, en **Corriente Continua (CC)** ese desfasaje es de 0°. Como el coseno de 0 grados es igual a 1, la fórmula se simplifica directamente a:
 $$P = V \cdot I$$
 
 ---
@@ -57,28 +57,31 @@ $$P = V \cdot I$$
 
 Es un conjunto de elementos o componentes interconectados (como resistencias, diodos, capacitores, bobinas o pilas) de tal forma que debe haber, al menos, una **trayectoria cerrada**.
 
-- **Condición de funcionamiento:** El conductor debe formar un camino cerrado para que los electrones puedan fluir de un polo a otro. Si se desconecta un extremo, la corriente se interrumpe a cero.
-- **Peligro de cortocircuito:** No se debe conectar un alambre directo entre los terminales de una fuente. Como la resistencia tiende a cero, se generará una corriente destructiva que calentará el cable y la fuente, corriendo el riesgo de dañarla.
+- **Condición de funcionamiento:** El conductor debe formar una trayectoria cerrada para que los electrones puedan fluir. Si se conecta un cable a los dos terminales de una pila, la corriente fluye porque el camino está cerrado (como una pista de carreras completa). Si sólo se conecta un extremo, no hay corriente porque los electrones no tienen hacia dónde ir.
+- **Peligro de cortocircuito:** No se debe conectar un alambre directo entre los terminales de una fuente. Como la resistencia es muy baja, se generará una gran corriente que calentará el cable y la pila, corriendo el riesgo de dañar la fuente. Para aprovechar la corriente, siempre se deben incluir componentes que interactúen con ella.
 
 #### 2.2 Nodos
 
 Se llama nodo al punto de interconexión donde se unen dos o más componentes.
 
-> 📷 **[Espacio para Imagen 2: Esquema de Nodos simplificados - Nodo 1 y Nodo 2]**
+- **Regla de análisis para los Nodos:** Si dos puntos están unidos por conductores perfectos (cables limpios sin ningún componente en el medio), en teoría representan un solo y único punto en el circuito. Considerar que son dos nodos diferentes es un error común; aunque el dibujo cambie la forma de la conexión y los muestre separados, son en realidad un solo punto.
 
-- **Regla de análisis:** Si dos puntos están unidos por conductores perfectos (cables limpios sin ningún componente en el medio), representan **un solo y único punto** en el circuito. Aunque el dibujo cambie la forma de la conexión gráfica, su potencial eléctrico es el mismo.
+![Imagen 4](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/4.png)
+![Imagen 5](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/5.png)
+![Imagen 6](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/6.png)
+![Imagen 7](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/7.png)
 
 ---
 
 #### 2.3 Circuitos con Resistencias en Serie
 
-Las resistencias están conectadas una a continuación de la otra, de tal forma que la corriente que atraviesa la primera será exactamente la misma que atraviesa las siguientes.
+Las resistencias están conectadas una a continuación de la otra en el circuito eléctrico, de tal forma que la corriente que atraviesa la primera de ellas será la misma que atraviesa las siguientes.
 
-> 📷 **[Espacio para Imagen 3: Circuito Serie con R1 y R2]**
+![Imagen 8](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/8.png)
 
-- **Corriente total ($I_t$):** Es igual en todos los componentes del circuito.
+- **Corriente total ($I_t$):** La corriente total es igual en todos los componentes del circuito.
   $$I_t = I_1 = I_2 = \dots = I_n$$
-- **Tensión total ($V_t$):** La tensión de la fuente se reparte (cae) entre todas las resistencias.
+- **Tensión total ($V_t$):** La tensión de la fuente, voltaje total, se reparte entre todas las resistencias.
   $$V_t = V_1 + V_2 + \dots + V_n$$
 - **Resistencia total ($R_t$):** Es la suma directa de los valores de todas las resistencias.
   $$R_t = R_1 + R_2 + \dots + R_n$$
@@ -87,15 +90,15 @@ Las resistencias están conectadas una a continuación de la otra, de tal forma 
 
 #### 2.4 Circuitos con Resistencias en Paralelo
 
-Las resistencias están conectadas de tal forma que sus terminales de entrada están unidos entre sí, y sus terminales de salida también, quedando conectadas a los mismos dos nodos.
+Las resistencias están conectadas de tal forma que sus terminales de entrada están unidos entre sí, y sus terminales de salida también, quedando todas conectadas directamente a los mismos dos nodos del circuito.
 
-> 📷 **[Espacio para Imagen 4: Circuito Paralelo con R1 y R2]**
+![Imagen 9](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/9.png)
 
-- **Corriente total ($I_t$):** La corriente se divide entre todos los caminos en paralelo disponibles.
+- **Corriente total ($I_t$):** La corriente total se divide entre todos los caminos en paralelo.
   $$I_t = I_1 + I_2 + \dots + I_n$$
-- **Tensión total ($V_t$):** El voltaje es exactamente el mismo en cada una de las resistencias.
+- **Tensión total ($V_t$):** El voltaje total es exactamente el mismo en cada una de las resistencias, ya que todas comparten los mismos nodos.
   $$V_t = V_1 = V_2 = \dots = V_n$$
-- **Resistencia total ($R_t$):** La inversa de la resistencia total es igual a la suma de las inversas de las resistencias.
+- **Resistencia total ($R_t$):** La inversa de la resistencia total es igual a la suma de las inversas de cada una de las resistencias.
   $$R_t = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n}}$$
 
 ---
@@ -104,155 +107,127 @@ Las resistencias están conectadas de tal forma que sus terminales de entrada es
 
 #### 3.1 Ley de Kirchhoff de Corrientes (Ley de Nodos)
 
-La sumatoria de las corrientes eléctricas que entran y salen de un nodo es igual a cero en todo instante de tiempo (asignando signo positivo a las que entran y negativo a las que salen).
+La sumatoria de las corrientes eléctricas que entran y salen de un nodo, dando signo positivo (+) a las que entran y signo negativo (-) a las que salen, es igual a 0 en todo instante de tiempo.
 
 $$\sum_{k=1}^{n} I_k = 0 \Longleftrightarrow \sum I_{\text{entrada}} = \sum I_{\text{salida}}$$
 
-> 📷 **[Espacio para Imagen 5: Distribución de corrientes en un Nodo central]**
+![Imagen 10](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/10.png)
+![Imagen 11](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/11.png)
 
 #### 3.2 Ley de Kirchhoff de Tensiones (Ley de Mallas)
 
-La sumatoria de las tensiones a lo largo de un circuito cerrado (malla), dando signo positivo (+) a las subidas de tensión y signo negativo (-) a las caídas de potencial, es igual a cero en todo instante de tiempo.
+La sumatoria de las tensiones a lo largo de un circuito cerrado (malla), dando signo positivo (+) a las subidas de tensión y signo negativo (-) a las caídas de potencial, es igual a 0 en todo instante de tiempo. Esto equivale a decir que la suma de las caídas de potencial es igual a la tensión aplicada al mismo.
 
 $$\sum_{k=1}^{n} V_k = 0 \Longleftrightarrow \sum V_{\text{subidas}} = \sum V_{\text{caídas}}$$
 $$V_{\text{total}} = V_1 + V_2 + \dots + V_n$$
 
-> 📷 **[Espacio para Imagen 6: Circuito cerrado con fuentes y caídas de tensión de 15V, 5V, 3V, 6V, 1V]**
+![Imagen 12](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/12.png)
 
 ---
 
 ### Capítulo 4: Componentes Pasivos en Corriente Continua
 
-#### 4.1 Condensador o Capacitor ($C$)
+#### 4.1 Condensador o Capacitor
 
-Están compuestos por dos placas metálicas enfrentadas separadas por un aislante llamado dieléctrico (mica, aire, cerámica, etc.). Tienen la capacidad de almacenar cargas eléctricas. Su propiedad se llama **Capacidad** y se mide en **Faradios (F)**.
+Son componentes que tienen ciertas particularidades especiales. Están compuestos por 2 placas metálicas enfrentadas separadas por un aislante (puede ser mica, el aire, cerámica, etc.) llamado dieléctrico. Tienen la capacidad de almacenar cargas cuando están conectados en un circuito eléctrico de corriente continua. Se lo identifica con la letra C, su característica de almacenar cargas se llama Capacidad y se mide en Faradios (F).
 
-> 📷 **[Espacio para Imagen 7: Símbolo del Capacitor]**
+- **Su símbolo:**
+  ![Imagen 13](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/13.png)
 
-##### Comportamiento en CC
+##### Comportamiento de un condensador en corriente continua
 
-Al conectar un capacitor a corriente continua, la tensión sobre él sube lentamente hasta alcanzar el valor máximo de la fuente, momento en el cual bloquea por completo el paso de la corriente.
+Al conectar el circuito, la tensión sobre el condensador sube lentamente hasta alcanzar un valor máximo.
 
-> 📷 **[Espacio para Imagen 8: Gráfico de curva de carga de tensión Vc respecto al tiempo]**
+![Imagen 14](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/14.png)
+![Imagen 15](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/15.png)
 
-- **Analogía hidráulica:** Es como un tanque de agua intercalado en la cañería. Al principio está vacío y el agua entra rápido. A medida que se llena, la presión interna sube hasta igualarse con la de la red; en ese punto, el tanque se llena y el agua deja de circular.
+- **Analogía hidráulica:** Para entender el comportamiento, imaginate que un capacitor es como un tanque de agua intercalado en la cañería. Al principio, el tanque está vacío y el agua empieza a entrar llenándolo lentamente. A medida que el tanque se va llenando, la presión en el tanque sube despacito hasta que se iguala con la de la red; en ese momento, el tanque se llenó por completo y el agua deja de circular (bloquea el paso de la corriente).
 
-#### 4.2 Inductores o Bobinas ($L$)
+#### 4.2 Inductores o Bobinas
 
-Son elementos formados por un conductor arrollado sobre un núcleo. Tienen la característica de acumular energía en forma de campo magnético proporcional a la corriente que los atraviesa. Su valor se mide en **Henrios (H)**.
+También llamados comúnmente bobinas, son elementos eléctricos formados por un conductor arrollado sobre un núcleo no conductor.
 
-##### Comportamiento en CC
+- **Su símbolo:**
+  ![Imagen 16](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/16.png)
 
-En el primer instante de conexión, la tensión crece bruscamente sobre el inductor debido a la fuerza contraelectromotriz (Fem) que genera para oponerse al cambio de corriente, y luego cae hasta tender a 0 Volts (comportándose como un cable directo o cortocircuito ideal).
+Su comportamiento en corriente continua es acumular energía en forma de corriente eléctrica y una característica muy importante es generar un campo magnético a su alrededor proporcional a la corriente que lo atraviesa. Cuando se quiere quitar esa corriente el inductor responde generando una tensión igual pero de sentido inverso a la que producía la corriente que lo atravesaba. Esta tensión se denomina fuerza contraelectromotriz inducida (Fem). Su valor se mide en Henrios o Henry y se lo abrevia con (H) o (Hy). Al decir que genera un campo magnético a su alrededor proporcional al flujo eléctrico que lo atraviesa, se quiere decir que si se le aplica corriente continua, generará un campo magnético continuo.
 
-> 📷 **[Espacio para Imagen 9: Gráfico de curva de tensión Vl respecto al tiempo]**
+##### Comportamiento de un inductor en corriente continua
 
-- **Analogía hidráulica:** Imagina una rueda de paletas muy pesada metida adentro de la tubería. Al principio, el agua choca y la rueda ofrece mucha resistencia para arrancar (pico de tensión). A medida que el agua la empuja, la rueda gira libremente a la misma velocidad del flujo y deja de oponer resistencia.
+Aquí se puede ver que en un primer instante la tensión crece bruscamente sobre el inductor y luego baja hasta tender a 0 Volts (en un conductor ideal).
+
+![Imagen 17](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/17.png)
+![Imagen 18](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/18.png)
+
+- **Analogía hidráulica:** Para entender el inductor, imaginate una rueda de paletas pesada (un molino) metida adentro de la tubería. Al principio, cuando el agua empieza a correr, la rueda está totalmente quieta y ofrece muchísima resistencia para empezar a girar, provocando un gran frenazo de golpe (el pico brusco de tensión). A medida que el agua empuja, la rueda empieza a girar más y más rápido hasta que acompaña el flujo por completo; en ese punto, la rueda ya no frena nada el agua y gira libremente sin oponer resistencia (la tensión cae a 0 Volts).
 
 ---
 
 ### Capítulo 5: Corriente Alterna y Filtros
 
-#### 5.1 Fundamentos de Corriente Alterna (CA)
+#### 5.1 Fundamentos de Corriente Alterna
 
-A diferencia de la corriente continua pura (valores constantes que no cambian de signo) o la pulsante (varía en magnitud pero mantiene el mismo signo), la **Corriente Alterna** varía su amplitud y cambia de signo de manera cíclica a lo largo del tiempo.
+Una tensión o corriente continua es aquella que no cambia de signo a través del tiempo. Se puede clasificar en continua pura (amplitud constante que no varía) o continua pulsante (varía su magnitud pero no cambia de signo). Por otro lado, en la **Corriente Alterna** el sentido de circulación de la corriente o la aplicación de la tensión cambia de signo de forma cíclica en el eje del tiempo.
 
-> 📷 **[Espacio para Imagen 10: Gráficos comparativos de continua pura, pulsante y alterna]**
+![Imagen 19](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/19.png)
+![Imagen 20](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/20.png)
+![Imagen 21](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/21.png)
+![Imagen 22](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/22.png)
 
-En esta materia nos enfocamos en la **onda senoidal**, la cual surge de proyectar las variaciones de amplitud del círculo trigonométrico:
+El caso específico que estudiaremos en esta materia es el de la **corriente alterna senoidal o sinusoidal**.
 
-> 📷 **[Espacio para Imagen 11: Círculo trigonométrico y onda senoidal con radianes]**
+![Imagen 23](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/23.png)
 
-##### Propiedades Fundamentales de la Onda
+Esta forma de onda surge del círculo trigonométrico donde se reflejan las variaciones de amplitud a través del tiempo que toma la amplitud al ser recorrida y reflejada en un gráfico cartesiano:
 
-- **Ciclo:** Es el recorrido completo entre dos puntos equivalentes y consecutivos de la onda.
-- **Período ($T$):** Es el tiempo que tarda la señal en realizar un ciclo completo. Se mide en **segundos (s)**.
-- **Frecuencia ($f$):** Es la cantidad de ciclos completados por segundo. Se mide en **Hertz (Hz)**.
+![Imagen 24](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/24.png)
+
+##### Propiedades de la Onda Senoidal
+
+- **Ciclo:** Es el recorrido entre dos puntos iguales de la onda. Se lo enuncia con la letra _c_.
+- **Período:** Es el tiempo que se tarda en realizar un ciclo. Se mide en segundos (s) y se enuncia con la letra _T_.
+- **Frecuencia:** Es la cantidad de ciclos que se realizan por segundo. Se mide en Hertz (Hz). Un Ciclo por Segundo equivale a 1 Hz. Se la enuncia con la letra _f_.
+
+![Imagen 25](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/25.png)
+
+Estas definiciones son fundamentales en el estudio de señales, lo cual será un pilar importantísimo a lo largo de la carrera.
+
+##### Fórmulas de onda:
 
 $$T = \frac{1}{f} \quad \text{y} \quad f = \frac{1}{T}$$
-
-> 📷 **[Espacio para Imagen 12: Gráfico del período T en una onda senoidal]**
 
 ---
 
 #### 5.2 Comportamiento de Componentes en Alterna
 
-- **Reactancia Capacitiva ($X_c$):** Es la oposición que presenta un capacitor al paso de la corriente alterna. Se mide en Ohms (Ω) y su naturaleza vectorial se ubica a -90° respecto al eje real.
+- **Reactancia Capacitiva ($X_c$):** Es la "resistencia" que presenta un condensador al paso de la corriente alterna. Se mide en Ohms (Ω). Es una magnitud vectorial a $90^{\circ}$ hacia abajo con respecto al eje X.
   $$|X_c| = \frac{1}{2\pi \cdot f \cdot C}$$
-- **Reactancia Inductiva ($X_l$):** Es la oposición que presenta una bobina al paso de la corriente alterna. Se mide en Ohms (Ω) y su vector se ubica a +90° respecto al eje real.
+- **Reactancia Inductiva ($X_l$):** Es la "resistencia" que presenta un inductor al paso de la corriente alterna. Se mide en Ohms (Ω). Es una magnitud vectorial a $90^{\circ}$ en sentido opuesto a $X_c$ (hacia arriba).
   $$|X_l| = 2\pi \cdot f \cdot L$$
 
-> 📷 **[Espacio para Imagen 13: Diagramas vectoriales de R, Xc y Xl sobre los ejes coordenados]**
+##### Esquema Gráfico de Resistencias Vectoriales
 
-##### Desfasaje según el componente
+Gráficamente, R, $X_c$ y $X_l$ tienen distinta orientación sobre los ejes. Usando a R como referencia a $0^{\circ}$ sobre el eje X, se dibuja a $90^{\circ}$ hacia arriba y a $90^{\circ}$ en sentido opuesto (hacia abajo).
 
-1. **Circuito puramente resistivo:** La tensión y la corriente están en fase (0° de separación).
-2. **Circuito puramente inductivo:** La tensión adelanta a la corriente en 90°.
-3. **Circuito puramente capacitivo:** La tensión atrasa a la corriente en 90°.
+![Imagen 26](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/26.png)
+![Imagen 27](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/27.png)
 
-> 📷 **[Espacio para Imagen 14: Gráficos de ondas desfasadas para circuitos R, L y C]**
+##### Desfasaje en Corriente Alterna
+
+Es el ángulo de separación que se produce entre las ondas de tensión y de corriente al atravesar un componente.
+
+![Imagen 28](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/28.png)
+
+1. **Circuito totalmente resistivo:** La corriente sigue la misma forma de onda que la tensión, por lo que se dice que están en fase. Su corriente es: $I = \frac{V}{R}$.
+2. **Circuito totalmente inductivo:** Las ondas se separan y se dice que la tensión adelanta a la corriente en 90°. Su corriente es: $I = \frac{V}{X_l}$.
+3. **Circuito totalmente capacitivo:** Las ondas se separan y se dice que la tensión atrasa a la corriente en 90°. Su corriente es: $I = \frac{V}{X_c}$.
+
+![Imagen 29](file:///C:/Users/Natth/Desktop/Programacion-Web-I-2026-It's-Natt/img/Tec/29.png)
 
 ---
 
 ### Capítulo 6: Circuitos Complejos y Resonancia
 
-#### 6.1 Circuito RLC Serie e Impedancia ($Z$)
+#### 6.1 Circuito RLC Serie
 
-La **Impedancia (Z)** es la oposición total que un circuito RLC serie presenta al paso de la corriente alterna. Como las reactancias y la resistencia tienen diferentes ángulos, su suma se realiza de forma estrictamente **vectorial**.
-
-- **Pulsación ($\omega$):** Simplifica las expresiones de las reactancias mediante la relación $\omega = 2\pi f$ (medida en rad/s).
-  $$|X_c| = \frac{1}{\omega \cdot C} \quad \text{y} \quad |X_l| = \omega \cdot L$$
-
-##### Análisis Analítico (Fórmulas)
-
-- **Módulo de la Impedancia:**
-  $$|Z| = \sqrt{R^2 + (X_l - X_c)^2}$$
-  $$|Z| = \sqrt{R^2 + \left(2\pi f L - \frac{1}{2\pi f C}\right)^2}$$
-- **Ángulo de desfasaje ($\rho$):**
-  $$\tan(\rho) = \frac{X_l - X_c}{R} \implies \rho = \arctan\left(\frac{X_l - X_c}{R}\right)$$
-
-> 📷 **[Espacio para Imagen 15: Suma geométrica de vectores para hallar Z]**
-
-#### 6.2 Frecuencia de Resonancia ($f_0$)
-
-Cuando la frecuencia del circuito hace que los efectos de la bobina y del capacitor se igualen ($X_l = X_c$), ambas reactancias se anulan por completo. En ese instante exacto, la impedancia cae a su valor mínimo ($Z = R$), lo que provoca que **la corriente circulante por el circuito sea máxima**.
-
-$$f_0 = \frac{1}{2\pi\sqrt{L \cdot C}}$$
-
----
-
-### Capítulo 7: Aplicaciones Técnicas - Filtros Pasivos
-
-Los filtros utilizan combinaciones de componentes pasivos para permitir el paso de frecuencias específicas y bloquear otras. Consideramos el transmisor como la señal de entrada ($Tx$) y el receptor como la carga ($Rx$).
-
-#### 7.1 Filtro Pasa Altos
-
-Permite el paso de las frecuencias altas y bloquea las bajas. Se logra conectando un **capacitor en serie** entre el $Tx$ y el $Rx$.
-
-> 📷 **[Espacio para Imagen 16: Esquema de circuito Pasa Altos con capacitor en serie]**
-
-- **Explicación:** Si la frecuencia ($f$) sube, la reactancia $X_c$ baja, permitiendo mayor paso de corriente hacia la carga. Si la frecuencia baja hacia cero (CC), $X_c$ tiende a infinito, actuando como un circuito abierto.
-
-> 📷 **[Espacio para Imagen 17: Curva de respuesta en potencia del filtro Pasa Altos y frecuencia de corte inferior Fci]**
-
-#### 7.2 Filtro Pasa Bajos
-
-Permite el paso de las frecuencias bajas y atenúa las altas. Se logra conectando un **inductor en serie** entre el $Tx$ y el $Rx$.
-
-> 📷 **[Espacio para Imagen 18: Esquema de circuito Pasa Bajos con inductor en serie]**
-
-- **Explicación:** A bajas frecuencias, la reactancia $X_l$ es casi nula, comportándose como un cortocircuito que no opone resistencia. A altas frecuencias, $X_l$ crece proporcionalmente hasta bloquear el paso de la señal.
-
-> 📷 **[Espacio para Imagen 19: Curva de respuesta en potencia del filtro Pasa Bajos y frecuencia de corte superior Fcs]**
-
-#### 7.3 Filtro Pasa Banda (Circuito RLC Serie)
-
-Un circuito RLC en serie permite el paso de una banda específica de frecuencias que se encuentra alrededor de su frecuencia de resonancia ($f_0$), donde la impedancia es mínima.
-
-> 📷 **[Espacio para Imagen 20: Esquema de circuito Pasa Banda RLC Serie]**
-
-- **Ancho de Banda (AB):** Es el rango de frecuencias comprendido entre la frecuencia de corte inferior ($f_{ci}$) y la de corte superior ($f_{cs}$) donde se concentra la mayor potencia de la señal (delimitado técnicamente por la caída de -3 dB, que equivale a la mitad de la potencia máxima).
-
-$$AB = f_{cs} - f_{ci}$$
-
-> 📷 **[Espacio para Imagen 21: Campana de respuesta del filtro Pasa Banda con fci, fo, fcs y ancho de banda]**
+- **Pulsación ($\omega$):** En las fórmulas de reactancia figura el término $2\pi f$. A esto se lo llama pulsación
