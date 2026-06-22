@@ -6,7 +6,7 @@
 
 [cite_start]La intensidad de corriente que circula por un circuito es directamente proporcional a la tensión aplicada e inversamente proporcional a su resistencia. [cite: 110]
 
-![Ley de Ohm](../img/Tec/1.png)
+<img src="../img/Tec/1.png" alt="Ley de Ohm" width="350" style="filter: invert(1);">
 
 **I (Intensidad de corriente):** Es el flujo de electrones que circula por el conductor. [cite_start]Se mide en Amperes (A). [cite: 111]
 
@@ -30,7 +30,7 @@ $$R = \frac{V}{I}$$
 
 [cite_start]Es la cantidad de energía transferida por una fuente a un circuito por unidad de tiempo. [cite: 118] [cite_start]Por el principio de conservación de la energía, esta energía no se pierde, sino que se transforma en otra manifestación energética. [cite: 118, 119]
 
-![Potencia Eléctrica](../img/Tec/2.png)
+<img src="../img/Tec/2.png" alt="Potencia Eléctrica" width="350" style="filter: invert(1);">
 
 **P (Potencia):** Es la cantidad de energía transferida o transformada. [cite_start]Se mide en Watts (W). [cite: 120]
 
