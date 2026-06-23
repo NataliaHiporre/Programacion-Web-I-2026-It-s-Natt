@@ -28,7 +28,7 @@ Para entender el comportamiento, imagina un circuito como una manguera: la tensi
 
 ### Potencia eléctrica en corriente continua
 
-Es la cantidad de energía transferida por una fuente a un circuito por unidad de tiempo. Por el principio de conservación de la energía, esta energía no se pierde, sino que se transforma en otra manifestación energética.
+Es la cantidad de energía transferida por una fuente a un circuito por unidad de tiempo. Por el principio de conservación de la energía, esta energía no se pierde, sino que se transforma en otra manifestation energética.
 
 <img src="../img/Tec/2.png" alt="Potencia Eléctrica" width="350" style="filter: invert(1);">
 
@@ -65,7 +65,7 @@ $$P = V \cdot I$$
 
 **Nodos:** Se llama nodo al punto de interconexión donde se unen dos o más componentes.
 
-- **Regla de análisis para los Nodos:** Si dos puntos están unidos por conductors perfectos (cables limpios sin ningún componente en el medio), en teoría representan un solo y único punto en el circuito. Considerar que son dos nodos diferentes es un error común; aunque el dibujo cambie la forma de la conexión y los muestre separados, son en realidad un solo punto.
+- **Regla de análisis para los Nodos:** Si dos puntos están unidos por conductores perfectos (cables limpios sin ningún componente en el medio), en teoría representan un solo y único punto en el circuito. Considerar que son dos nodos diferentes es un error común; aunque el dibujo cambie la forma de la conexión y los muestre separados, son en realidad un solo punto.
 
 <img src="../img/Tec/3.png" alt="Regla de análisis para los Nodos" width="350">
 
@@ -139,7 +139,8 @@ Se lo identifica con la letra **C**, su característica de almacenar cargas se l
 
 ### Comportamiento de un condensador en corriente continua
 
-<img src="../img/Tec/9.png" alt="Gráfico de carga de un Capacitor" width="350">
+<img src="../img/Tec/9.png" alt="Gráfico de comportamiento de un condensador 1" width="350">
+<img src="../img/Tec/10.png" alt="Gráfico de comportamiento de un condensador 2" width="350">
 
 Como se visualiza en el gráfico, la tensión sobre el condensador sube lentamente hasta alcanzar un valor máximo.
 
@@ -153,7 +154,7 @@ También llamados comúnmente bobinas, son elementos eléctricos formados por un
 
 **Su símbolo:**
 
-<img src="../img/Tec/10.png" alt="Símbolo del Inductor" width="350">
+<img src="../img/Tec/11.png" alt="Símbolo del Inductor" width="350">
 
 Su comportamiento en corriente continua es acumular energía en forma de corriente eléctrica y una característica muy importante es generar un campo magnético a su alrededor proporcional a la corriente que lo atraviesa. Cuando se quiere quitar esa corriente el inductor responde generando una tensión igual pero de sentido inverso a la que producía la corriente que lo atravesaba. Esta tensión se denomina fuerza contraelectromotriz inducida (Fem). Su valor se mide en **Henrios o Henry** y se lo abrevia con **(H)** o **(Hy)**.
 
@@ -161,7 +162,8 @@ Al decir que genera un campo magnético a su alrededor proporcional al flujo el�
 
 ### Comportamiento de un inductor en corriente continua
 
-<img src="../img/Tec/11.png" alt="Gráfico de tensión en un Inductor" width="350">
+<img src="../img/Tec/12.png" alt="Gráfico de comportamiento de un inductor 1" width="350">
+<img src="../img/Tec/13.png" alt="Gráfico de comportamiento de un inductor 2" width="350">
 
 Aquí se puede ver que en un primer instante la tensión crece bruscamente sobre el inductor y luego baja hasta tender a 0 Volts (en un conductor ideal).
 
@@ -175,13 +177,12 @@ Aquí se puede ver que en un primer instante la tensión crece bruscamente sobre
 
 ### Corriente Alterna
 
-El gráfico cartesiano para definir una tensión o una corriente constante es el siguiente:
+<img src="../img/Tec/14.png" alt="Corriente Alterna - Base" width="350">
 
-<img src="../img/Tec/12.png" alt="Gráfico de Magnitud constante en función del tiempo" width="350">
+El gráfico cartesiano para definir una tensión o una corriente constante es el siguiente: Donde en A se lleva el valor de la tensión o de la corriente, t es el tiempo que transcurre y magnitud el valor medido en la unidad correspondiente. Se puede ver que la amplitud no varía. Una tensión o corriente continua es aquella que no cambia de signo a través del tiempo. El gráfico de la Fig 1 corresponde a esta definición. Pero los siguientes gráficos también:
 
-Donde en A se lleva el valor de la tensión o de la corriente, t es el tiempo que transcurre y magnitud el valor medido en la unidad correspondiente. Se puede ver que la amplitud no varía. Una tensión o corriente continua es aquella que no cambia de signo a través del tiempo. El gráfico de la Fig 1 corresponde a esta definición. Pero los siguientes gráficos también:
-
-<img src="../img/Tec/13.png" alt="Gráficos de corriente continua pura y pulsante" width="350">
+<img src="../img/Tec/15.png" alt="Variación de corriente continua pura" width="350">
+<img src="../img/Tec/16.png" alt="Variación de corriente continua pulsante" width="350">
 
 El gráfico de la Fig. 2 respeta la definición. No cambia de signo, es negativa. El gráfico de la Fig 3 también la respeta. No cambia de signo.
 
@@ -189,33 +190,31 @@ Al de la las Fig. 1 y 2 se los denomina **tensión o corriente continua pura**. 
 
 Otro caso es el de la Corriente Alterna. Normalmente llamada así, pero se refiere tanto a corriente como a tensión alterna. En este caso el sentido de circulación de la corriente o la aplicación de la tensión cambia de signo:
 
-<img src="../img/Tec/14.png" alt="Gráfico de alternancia de signo" width="350">
+<img src="../img/Tec/17.png" alt="Cambio de signo en corriente alterna" width="350">
 
 En este caso se ve que el valor de la tensión o corriente cambia de signo. O sea que en un momento la corriente circulará en un sentido y luego en otro, lo cual se refleja en el eje del tiempo.
 
 El caso específico que estudiaremos en esta materia es el de la **corriente alterna senoidal o sinusoidal**. El gráfico puede verse en la siguiente figura:
 
-<img src="../img/Tec/15.png" alt="Onda Senoidal" width="350">
+<img src="../img/Tec/18.png" alt="Onda Senoidal Sinusoidal" width="350">
 
 Esta forma de onda surge del círculo trigonométrico donde se reflejan las variaciones de amplitud a través del tiempo que toma la amplitud al ser recorrida y reflejada en un gráfico cartesiano:
 
-<img src="../img/Tec/16.png" alt="Onda Senoidal con puntos notables" width="350">
+<img src="../img/Tec/19.png" alt="Forma de onda reflejada en plano cartesiano" width="350">
 
 ### Propiedades de la Onda Senoidal
 
 Esta onda de tensión y corriente tienen algunas propiedades, algunas de las cuales definiremos a continuación:
 
+<img src="../img/Tec/20.png" alt="Propiedades de la onda senoidal" width="350">
+
 - **Ciclo:** Es el recorrido entre dos puntos iguales de la onda. Se lo enuncia con la letra **c**.
-- **Período:** Es el tiempo que se tarda en realizar un ciclo. Se mide en segundos (s) y se enuncia con la letra **T**.
+- **Período:** Es el tiempo que se tarda en realizar un ciclo. Se mide en segundos (s) and se enuncia con la letra **T**.
 - **Frecuencia:** Es la cantidad de ciclos que se realizan por segundo. Se mide en Hertz (Hz). Un Ciclo por Segundo equivale a 1 Hz. Se la enuncia con la letra **f**.
 
 Estas 3 definiciones (más una que se verá más adelante llamada longitud de onda) son fundamentales en el estudio de señales, lo cual será un pilar importantísimo a lo largo de la carrera.
 
-En el siguiente gráfico se reflejan estas 3 definiciones:
-
-<img src="../img/Tec/17.png" alt="Gráfico explicativo de Período y Ciclo" width="350">
-
-En el caso de la Fig. 7, en verde se ve un Ciclo, y el tiempo que tarda en realizarse ($T = \text{período}$) es un segundo. Por lo tanto la Frecuencia es de 1 ciclo por segundo o lo que es lo mismo 1 Hz (Hz).
+En el siguiente gráfico se reflejan estas 3 definiciones: En el caso de la Fig. 7, en verde se ve un Ciclo, y el tiempo que tarda en realizarse ($T = \text{período}$) es un segundo. Por lo tanto la Frecuencia es de 1 ciclo por segundo o lo que es lo mismo 1 Hz (Hz).
 
 **Fórmulas:**
 
@@ -247,7 +246,17 @@ Donde **f** es la frecuencia en Hertz (Hz) del generador y **L** es el valor del
 
 Gráficamente, $R$, $X_C$ y $X_L$ tienen distinta orientación sobre los ejes. Usando a $R$ como referencia a $0^{\circ}$ sobre el eje X, se dibuja a $X_L$ a $90^{\circ}$ hacia arriba y a $X_C$ a $90^{\circ}$ en sentido opuesto (hacia abajo).
 
-<img src="../img/Tec/18.png" alt="Esquema Gráfico de Resistencias" width="350">
+#### Resistencia (R)
+
+<img src="../img/Tec/21.png" alt="Resistencia R" width="350">
+
+#### Reactancia Capacitiva ($X_c$)
+
+<img src="../img/Tec/22.png" alt="Reactancia Capacitiva Xc" width="350">
+
+#### Reactancia Inductiva ($X_l$)
+
+<img src="../img/Tec/23.png" alt="Reactancia Inductiva Xl" width="350">
 
 ### Desfasaje en Corriente Alterna
 
@@ -255,15 +264,27 @@ Es el ángulo de separación que se produce entre las ondas de tensión y de cor
 
 **Símbolo del generador:**
 
-<img src="../img/Tec/19.png" alt="Símbolo del Generador de Alterna" width="350">
+<img src="../img/Tec/24.png" alt="Símbolo del Generador de Alterna" width="350">
 
 1. **Circuito totalmente resistivo:** La corriente sigue la misma forma de onda que la tensión, por lo que se dice que están en fase. Su corriente es:
+
+   <img src="../img/Tec/25.png" alt="Circuito totalmente resistivo 1" width="350">
+   <img src="../img/Tec/26.png" alt="Circuito totalmente resistivo 2" width="350">
+
    $$I = \frac{V}{R}$$
 
 2. **Circuito totalmente inductivo:** Las ondas se separan y se dice que la tensión adelanta a la corriente en $90^{\circ}$. Su corriente es:
+
+   <img src="../img/Tec/27.png" alt="Circuito totalmente inductivo 1" width="350">
+   <img src="../img/Tec/28.png" alt="Circuito totalmente inductivo 2" width="350">
+
    $$I = \frac{V}{X_L}$$
 
 3. **Circuito totalmente capacitivo:** Las ondas se separan y se dice que la tensión atrasa a la corriente en $90^{\circ}$. Su corriente es:
+
+   <img src="../img/Tec/29.png" alt="Circuito totalmente capacitivo 1" width="350">
+   <img src="../img/Tec/30.png" alt="Circuito totalmente capacitivo 2" width="350">
+
    $$I = \frac{V}{X_C}$$
 
 ---
@@ -282,11 +303,14 @@ $$\omega = 2\pi f \Longrightarrow |X_C| = \frac{1}{\omega C} \quad \text{y} \qua
 
 Es la resistencia total que un circuito RLC serie presenta al paso de la corriente alterna. Se mide en Ohms ($\Omega$). Al estar los componentes en serie, sus resistencias deben sumarse, pero por ser vectores la suma tiene que ser de forma vectorial (posee módulo y argumento o ángulo $\rho$).
 
+<img src="../img/Tec/31.png" alt="Impedancia Z" width="350">
+
 ### Suma Geométrica (Gráfica)
 
 Como $X_C$ y $X_L$ están sobre la misma recta de acción pero en sentidos opuestos, primero se restan directamente ($X_L - X_C$). El vector resultante de esa resta se combina a $90^{\circ}$ con la resistencia $R$ para formar la Impedancia ($Z$) y su ángulo de desfasaje ($\rho$).
 
-<img src="../img/Tec/20.png" alt="Suma Geométrica de Impedancias" width="350">
+<img src="../img/Tec/32.png" alt="Suma geométrica 1" width="350">
+<img src="../img/Tec/33.png" alt="Suma geométrica 2" width="350">
 
 ### Suma Analítica (Fórmulas)
 
@@ -322,19 +346,23 @@ Convengamos a modo de estudio que Rx será el receptor (y cumplirá la función 
 
 Presentará una baja resistencia a las frecuencias altas en un circuito. Se logra conectando un condensador en serie entre el transmisor y el receptor.
 
+<img src="../img/Tec/34.png" alt="Circuito Pasa Altos" width="350">
+
 Recordemos la fórmula de $X_C$:
 
 $$X_C = \frac{1}{2\pi f C}$$
 
 Por lo tanto, si $f$ sube, $X_C$ baja y por las leyes vistas la corriente será superior por el circuito y la potencia sobre Rx será mayor.
 
-Por el contrario, si la frecuencia $f$ baja, la reactancia sube y si $f$ tiende a 0, $X_C$ tiende a infinito, lo que significa que se comporta como un circuito abierto.
+Por el contrario, si la frecuencia $f$ baja, la reactancia sube y si $f$ tiende a 0, $X_C$ tiende a infinito, lo que significa que se comporta como un circuito abierto. No dejando pasar la señal.
 
-<img src="../img/Tec/21.png" alt="Gráfico del Filtro Pasa Altos" width="350">
+<img src="../img/Tec/35.png" alt="Circuito Abierto Pasa Altos" width="350">
 
 ---
 
 ### 2. Circuito Pasa Bajos
+
+<img src="../img/Tec/36.png" alt="Circuito Pasa Bajos" width="350">
 
 Recordemos la fórmula de $X_L$:
 
@@ -344,9 +372,9 @@ Por lo tanto, si la frecuencia $f$ es baja, el valor de la reactancia inductiva 
 
 Por el contrario, si la frecuencia $f$ sube, el valor de la reactancia inductiva subirá en forma proporcional, llegando a valores muy altos donde se comportará como una gran resistencia no dejando pasar la señal.
 
-El gráfico muestra la distribución de la potencia de la señal que recibe el receptor a medida que la frecuencia aumenta, cayendo la potencia cuando se supera la frecuencia de corte.
+<img src="../img/Tec/37.png" alt="Gráfico de decaimiento en Pasa Bajos" width="350">
 
-<img src="../img/Tec/22.png" alt="Gráfico del Filtro Pasa Bajos" width="350">
+El gráfico muestra la distribución de la potencia de la señal que recibe el receptor a medida que la frecuencia aumenta, cayendo la potencia cuando se supera la frecuencia de corte.
 
 ---
 
@@ -354,13 +382,17 @@ El gráfico muestra la distribución de la potencia de la señal que recibe el r
 
 Un circuito RLC serie funciona como un circuito PASA BANDA. Esto significa que habrá una banda pasante que tendrá un conjunto de frecuencias que tendrán menor Impedancia Z, o sea que tendrá menor resistencia al paso de la señal.
 
+<img src="../img/Tec/38.png" alt="Circuito Pasa Banda" width="350">
+
 Esa frecuencia será la frecuencia de resonancia, la central, y a sus lados una frecuencia de corte inferior fci y una de corte superior fcs. Fuera de esos límites se considera que las otras frecuencias están bloqueadas.
 
 Al conjunto de frecuencias entre la fci y la fcs se la llama ancho de banda (AB). El ancho de banda es el conjunto de frecuencias donde radica la mayor parte de la potencia de la señal y se calcula como el ancho de banda es igual a:
 
 $$AB = f_{cs} - f_{ci}$$
 
-<img src="../img/Tec/23.png" alt="Gráfico del Filtro Pasa Banda" width="350">
+La línea que marca -3 _ D _ B es la única línea que indica que la señal está a mitad de la pendiente.
+
+<img src="../img/Tec/39.png" alt="Filtro Pasa Banda -3dB" width="350">
 
 $$\vert Z \vert = \sqrt{R^2 + \left(2\pi f L - \frac{1}{2\pi f C}\right)^2}$$
 
