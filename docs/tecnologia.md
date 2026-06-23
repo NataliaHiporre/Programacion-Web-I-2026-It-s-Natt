@@ -177,9 +177,11 @@ Aquí se puede ver que en un primer instante la tensión crece bruscamente sobre
 
 ### Corriente Alterna
 
+El gráfico cartesiano para definir una tensión o una corriente constante es el siguiente:
+
 <img src="../img/Tec/14.png" alt="Corriente Alterna - Base" width="350">
 
-El gráfico cartesiano para definir una tensión o una corriente constante es el siguiente: Donde en A se lleva el valor de la tensión o de la corriente, t es el tiempo que transcurre y magnitud el valor medido en la unidad correspondiente. Se puede ver que la amplitud no varía. Una tensión o corriente continua es aquella que no cambia de signo a través del tiempo. El gráfico de la Fig 1 corresponde a esta definición. Pero los siguientes gráficos también:
+Donde en A se lleva el valor de la tensión o de la corriente, t es el tiempo que transcurre y magnitud el valor medido en la unidad correspondiente. Se puede ver que la amplitud no varía. Una tensión o corriente continua es aquella que no cambia de signo a través del tiempo. El gráfico de la Fig 1 corresponde a esta definición. Pero los siguientes gráficos también:
 
 <img src="../img/Tec/15.png" alt="Variación de corriente continua pura" width="350">
 <img src="../img/Tec/16.png" alt="Variación de corriente continua pulsante" width="350">
@@ -206,15 +208,13 @@ Esta forma de onda surge del círculo trigonométrico donde se reflejan las vari
 
 Esta onda de tensión y corriente tienen algunas propiedades, algunas de las cuales definiremos a continuación:
 
-<img src="../img/Tec/20.png" alt="Propiedades de la onda senoidal" width="350">
-
 - **Ciclo:** Es el recorrido entre dos puntos iguales de la onda. Se lo enuncia con la letra **c**.
 - **Período:** Es el tiempo que se tarda en realizar un ciclo. Se mide en segundos (s) and se enuncia con la letra **T**.
 - **Frecuencia:** Es la cantidad de ciclos que se realizan por segundo. Se mide en Hertz (Hz). Un Ciclo por Segundo equivale a 1 Hz. Se la enuncia con la letra **f**.
 
-Estas 3 definiciones (más una que se verá más adelante llamada longitud de onda) son fundamentales en el estudio de señales, lo cual será un pilar importantísimo a lo largo de la carrera.
-
 En el siguiente gráfico se reflejan estas 3 definiciones: En el caso de la Fig. 7, en verde se ve un Ciclo, y el tiempo que tarda en realizarse ($T = \text{período}$) es un segundo. Por lo tanto la Frecuencia es de 1 ciclo por segundo o lo que es lo mismo 1 Hz (Hz).
+
+<img src="../img/Tec/20.png" alt="Propiedades de la onda senoidal" width="350">
 
 **Fórmulas:**
 
@@ -246,15 +246,15 @@ Donde **f** es la frecuencia en Hertz (Hz) del generador y **L** es el valor del
 
 Gráficamente, $R$, $X_C$ y $X_L$ tienen distinta orientación sobre los ejes. Usando a $R$ como referencia a $0^{\circ}$ sobre el eje X, se dibuja a $X_L$ a $90^{\circ}$ hacia arriba y a $X_C$ a $90^{\circ}$ en sentido opuesto (hacia abajo).
 
-#### Resistencia (R)
+#### Resistencia (R):
 
 <img src="../img/Tec/21.png" alt="Resistencia R" width="350">
 
-#### Reactancia Capacitiva ($X_c$)
+#### Reactancia Capacitiva ($X_C$):
 
 <img src="../img/Tec/22.png" alt="Reactancia Capacitiva Xc" width="350">
 
-#### Reactancia Inductiva ($X_l$)
+#### Reactancia Inductiva ($X_L$):
 
 <img src="../img/Tec/23.png" alt="Reactancia Inductiva Xl" width="350">
 
@@ -264,28 +264,28 @@ Es el ángulo de separación que se produce entre las ondas de tensión y de cor
 
 **Símbolo del generador:**
 
-<img src="../img/Tec/24.png" alt="Símbolo del Generador de Alterna" width="350">
+<img src="../img/Tec/24.png" alt="Símbolo del Generador de Alterna" width="200">
 
 1. **Circuito totalmente resistivo:** La corriente sigue la misma forma de onda que la tensión, por lo que se dice que están en fase. Su corriente es:
+
+$$I = \frac{V}{R}$$
 
    <img src="../img/Tec/25.png" alt="Circuito totalmente resistivo 1" width="350">
    <img src="../img/Tec/26.png" alt="Circuito totalmente resistivo 2" width="350">
 
-   $$I = \frac{V}{R}$$
-
 2. **Circuito totalmente inductivo:** Las ondas se separan y se dice que la tensión adelanta a la corriente en $90^{\circ}$. Su corriente es:
+
+   $$I = \frac{V}{X_L}$$
 
    <img src="../img/Tec/27.png" alt="Circuito totalmente inductivo 1" width="350">
    <img src="../img/Tec/28.png" alt="Circuito totalmente inductivo 2" width="350">
 
-   $$I = \frac{V}{X_L}$$
-
 3. **Circuito totalmente capacitivo:** Las ondas se separan y se dice que la tensión atrasa a la corriente en $90^{\circ}$. Su corriente es:
+
+   $$I = \frac{V}{X_C}$$
 
    <img src="../img/Tec/29.png" alt="Circuito totalmente capacitivo 1" width="350">
    <img src="../img/Tec/30.png" alt="Circuito totalmente capacitivo 2" width="350">
-
-   $$I = \frac{V}{X_C}$$
 
 ---
 
@@ -358,9 +358,15 @@ Por el contrario, si la frecuencia $f$ baja, la reactancia sube y si $f$ tiende 
 
 <img src="../img/Tec/35.png" alt="Circuito Abierto Pasa Altos" width="350">
 
+El gráfico muestra la distribución de la potencia de la señal que recibe el receptor a medida
+que la frecuencia aumenta. fci es la frecuencia de corte inferior. Es la frecuencia a partir de la
+cual la potencia sobre Rx será mayor.
+
 ---
 
 ### 2. Circuito Pasa Bajos
+
+Presentara una baja resistencia a las frecuencias bajas en un circuito. Se logra conectando un inductor en serie entre el transmisor y el receptor.
 
 <img src="../img/Tec/36.png" alt="Circuito Pasa Bajos" width="350">
 
@@ -382,17 +388,29 @@ El gráfico muestra la distribución de la potencia de la señal que recibe el r
 
 Un circuito RLC serie funciona como un circuito PASA BANDA. Esto significa que habrá una banda pasante que tendrá un conjunto de frecuencias que tendrán menor Impedancia Z, o sea que tendrá menor resistencia al paso de la señal.
 
-<img src="../img/Tec/38.png" alt="Circuito Pasa Banda" width="350">
-
 Esa frecuencia será la frecuencia de resonancia, la central, y a sus lados una frecuencia de corte inferior fci y una de corte superior fcs. Fuera de esos límites se considera que las otras frecuencias están bloqueadas.
 
-Al conjunto de frecuencias entre la fci y la fcs se la llama ancho de banda (AB). El ancho de banda es el conjunto de frecuencias donde radica la mayor parte de la potencia de la señal y se calcula como el ancho de banda es igual a:
+<img src="../img/Tec/38.png" alt="Circuito Pasa Banda" width="350">
+
+Al conjunto de frecuencias entre la fci y la fcs se la llama ancho de banda (AB). El ancho de banda es el conjunto de frecuencias donde radica la mayor parte de la potencia de la señal y se calcula como el ancho de banda es igual a la frecuencia de corte superior menos la frecuencia de corte inferior
 
 $$AB = f_{cs} - f_{ci}$$
 
-La línea que marca -3 _ D _ B es la única línea que indica que la señal está a mitad de la pendiente.
+$$f_{0}$$ es la frecuencia de resonancia, medida en Hertz (Hz).
+
+La línea que marca -3DB es la única línea que indica que la señal está a mitad de la pendiente.
 
 <img src="../img/Tec/39.png" alt="Filtro Pasa Banda -3dB" width="350">
+
+Nótese que esto se confirma deduciendo de la fórmula que, a la frecuencia de resonancia:
+
+$$X_L = X_C$$
+
+Por lo tanto, la Impedancia ($Z$) es mínima y la corriente es máxima, lo que significa que mayor corriente circulará por $R_x$ (en este caso el receptor) y mayor potencia de la señal recibirá.
+
+La impedancia ($Z$) es la resistencia total que un circuito RLC serie presenta al paso de la corriente alterna. Su fórmula en este estado de resonancia se simplifica a:
+
+$$|Z| = \sqrt{R^2 + (X_L - X_C)^2}$$
 
 $$\vert Z \vert = \sqrt{R^2 + \left(2\pi f L - \frac{1}{2\pi f C}\right)^2}$$
 
