@@ -323,7 +323,7 @@ Es la "resistencia" que presenta un inductor al paso de la corriente alterna. Se
 
 $$|X_L| = 2\pi f L$$
 
-Donde **f** es la frecuencia en Hertz (Hz) del generador y **L** es el valor del inductor en Henrios (H). Es una magnitud vectorial a $90^{\circ}$ en sentido opuesto a $X_c$ _(Nota: La resistencia R en corriente alterna se comporta igual que en continua y su ángulo es $0°$ sobre el eje X)._
+Donde **f** es la frecuencia en Hertz (Hz) del generador y **L** es el valor del inductor en Henrios (H). Es una magnitud vectorial a $90^{\circ}$ en sentido opuesto a $X_c$ _(Nota: La resistencia R en corriente alterna se comporta igual que en continua y su ángulo es 0° sobre el eje X)._
 
 - **Analogía hidráulica:** Para entender cómo funciona, imaginate a la bobina como una rueda de paletas muy pesada metida adentro del caño. Si la corriente va y viene súper rápido (alta frecuencia), el agua intenta ir para un lado y la rueda pesada la frena; cuando quiere empezar a girar, el agua ya cambió de dirección y la vuelve a frenar, por lo que casi no se mueve (**alta reactancia**). Si la corriente va lento (baja frecuencia), el agua empuja un buen rato, logra hacer girar la rueda y pasa casi sin enterarse (**baja reactancia**).
 
