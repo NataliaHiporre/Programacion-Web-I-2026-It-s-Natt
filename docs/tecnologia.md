@@ -4,53 +4,53 @@
 
 ### Ley de Ohm
 
-[cite_start]La intensidad de corriente que circula por un circuito es directamente proporcional a la tensión aplicada e inversamente proporcional a su resistencia. [cite: 110]
+La intensidad de corriente que circula por un circuito es directamente proporcional a la tensión aplicada e inversamente proporcional a su resistencia.
 
 <img src="../img/Tec/1.png" alt="Ley de Ohm" width="350" style="filter: invert(1);">
 
-**I (Intensidad de corriente):** Es el flujo de electrones que circula por el conductor. [cite_start]Se mide en Amperes (A). [cite: 111]
+**I (Intensidad de corriente):** Es el flujo de electrones que circula por el conductor. Se mide en Amperes (A).
 
 $$I = \frac{V}{R}$$
 
-[cite_start]Para pasar de A a mA se multiplica por 1000 ($1\text{ A} = 1000\text{ mA}$); para pasar de mA a A se divide por 1000. [cite: 112, 113]
+Para pasar de A a mA se multiplica por 1000 ($1\text{ A} = 1000\text{ mA}$); para pasar de mA a A se divide por 1000.
 
-**V (Tensión o Voltaje):** Es la fuerza que impulsa a los electrones (la corriente) a través del circuito. [cite_start]Se mide en Volts (V). [cite: 113, 114]
+**V (Tensión o Voltaje):** Es la fuerza que impulsa a los electrones (la corriente) a través del circuito. Se mide en Volts (V).
 
 $$V = R \cdot I$$
 
-**R (Resistencia):** Es la dificultad u oposición que presenta el material al paso de la corriente eléctrica. [cite_start]Se mide en Ohms ($\Omega$). [cite: 114, 115]
+**R (Resistencia):** Es la dificultad u oposición que presenta el material al paso de la corriente eléctrica. Se mide en Ohms ($\Omega$).
 
 $$R = \frac{V}{I}$$
 
 ### Analogía hidráulica
 
-[cite_start]Para entender el comportamiento, imagina un circuito como una manguera: la tensión es la presión del agua, la intensidad es el caudal que circula y la resistencia es lo angosta que está la manguera. [cite: 115] [cite_start]Por ende, a más presión (más voltaje) habrá más caudal (más corriente); pero si la manguera se estrangula (más resistencia), pasará menos caudal (menos corriente). [cite: 116, 117]
+Para entender el comportamiento, imagina un circuito como una manguera: la tensión es la presión del agua, la intensidad es el caudal que circula y la resistencia es lo angosta que está la manguera. Por ende, a más presión (más voltaje) habrá más caudal (más corriente); pero si la manguera se estrangula (más resistencia), pasará menos caudal (menos corriente).
 
 ### Potencia eléctrica en corriente continua
 
-[cite_start]Es la cantidad de energía transferida por una fuente a un circuito por unidad de tiempo. [cite: 118] [cite_start]Por el principio de conservación de la energía, esta energía no se pierde, sino que se transforma en otra manifestación energética. [cite: 118, 119]
+Es la cantidad de energía transferida por una fuente a un circuito por unidad de tiempo. Por el principio de conservación de la energía, esta energía no se pierde, sino que se transforma en otra manifestación energética.
 
 <img src="../img/Tec/2.png" alt="Potencia Eléctrica" width="350" style="filter: invert(1);">
 
-**P (Potencia):** Es la cantidad de energía transferida o transformada. [cite_start]Se mide en Watts (W). [cite: 120]
+**P (Potencia):** Es la cantidad de energía transferida o transformada. Se mide en Watts (W).
 
 $$P = V \cdot I$$
 
-**V (Tensión o Voltaje):** Es la tensión aplicada al circuito. [cite_start]Se mide en Volts (V). [cite: 121]
+**V (Tensión o Voltaje):** Es la tensión aplicada al circuito. Se mide en Volts (V).
 
 $$V = \frac{P}{I}$$
 
-**I (Intensidad de corriente):** Es la corriente que circula por el circuito. [cite_start]Se mide en Amperes (A). [cite: 122]
+**I (Intensidad de corriente):** Es la corriente que circula por el circuito. Se mide en Amperes (A).
 
 $$I = \frac{P}{V}$$
 
 ### Explicación del desfase (Por qué se usa esa fórmula)
 
-[cite_start]La fórmula general real de la potencia incluye el desfasaje entre la tensión y la corriente, y es: [cite: 123]
+La fórmula general real de la potencia incluye el desfasaje entre la tensión y la corriente, y es:
 
 $$P = V \cdot I \cdot \cos(\varphi)$$
 
-[cite_start]Sin embargo, en Corriente Continua (CC) ese desfasaje es de $0^{\circ}$. [cite: 123] [cite_start]Como el coseno de 0 grados es igual a 1, la fórmula se simplifica directamente a [cite: 124]
+Sin embargo, en Corriente Continua (CC) ese desfasaje es de $0^{\circ}$. Como el coseno de 0 grados es igual a 1, la fórmula se simplifica directamente a
 
 $$P = V \cdot I$$
 
@@ -58,46 +58,46 @@ $$P = V \cdot I$$
 
 ## Concepto y Análisis de Circuitos
 
-[cite_start]**Circuito Eléctrico:** Es un conjunto de elementos o componentes interconectados (como resistencias, diodos, capacitores, bobinas o pilas) de tal forma que debe haber, al menos, una trayectoria cerrada. [cite: 124]
+**Circuito Eléctrico:** Es un conjunto de elementos o componentes interconectados (como resistencias, diodos, capacitores, bobinas o pilas) de tal forma que debe haber, al menos, una trayectoria cerrada.
 
-- [cite_start]**Condición de funcionamiento:** El conductor debe formar una trayectoria cerrada para que los electrones puedan fluir. [cite: 125] [cite_start]Si se conecta un cable a los dos terminales de una pila, la corriente fluye porque el camino está cerrado (como una pista de carreras completa). [cite: 126] [cite_start]Si sólo se conecta un extremo, no hay corriente porque los electrones no tienen hacia dónde ir (como una pista en construcción). [cite: 127]
-- [cite_start]**Peligro de cortocircuito:** No se debe conectar un alambre directo entre los terminales de una fuente. [cite: 128] [cite_start]Como la resistencia es muy baja, se generará una gran corriente que calentará el cable y la pila, corriendo el riesgo de dañar la fuente. [cite: 129] [cite_start]Para aprovechar la corriente, siempre se deben incluir componentes que interactúen con ella. [cite: 130]
+- **Condición de funcionamiento:** El conductor debe formar una trayectoria cerrada para que los electrones puedan fluir. Si se conecta un cable a los dos terminales de una pila, la corriente fluye porque el camino está cerrado (como una pista de carreras completa). Si sólo se conecta un extremo, no hay corriente porque los electrones no tienen hacia dónde ir (como una pista en construcción).
+- **Peligro de cortocircuito:** No se debe conectar un alambre directo entre los terminales de una fuente. Como la resistencia es muy baja, se generará una gran corriente que calentará el cable y la pila, corriendo el riesgo de dañar la fuente. Para aprovechar la corriente, siempre se deben incluir componentes que interactúen con ella.
 
-[cite_start]**Nodos:** Se llama nodo al punto de interconexión donde se unen dos o más componentes. [cite: 131]
+**Nodos:** Se llama nodo al punto de interconexión donde se unen dos o más componentes.
 
-- [cite_start]**Regla de análisis para los Nodos:** Si dos puntos están unidos por conductores perfectos (cables limpios sin ningún componente en el medio), en teoría representan un solo y único punto en el circuito. [cite: 132] [cite_start]Considerar que son dos nodos diferentes es un error común; aunque el dibujo cambie la forma de la conexión y los muestre separados, son en realidad un solo punto. [cite: 133, 134]
+- **Regla de análisis para los Nodos:** Si dos puntos están unidos por conductors perfectos (cables limpios sin ningún componente en el medio), en teoría representan un solo y único punto en el circuito. Considerar que son dos nodos diferentes es un error común; aunque el dibujo cambie la forma de la conexión y los muestre separados, son en realidad un solo punto.
 
-![Regla de análisis para los Nodos](../img/Tec/3.png)
+<img src="../img/Tec/3.png" alt="Regla de análisis para los Nodos" width="350">
 
 ### Circuito eléctrico con resistencias en serie
 
-[cite_start]Las resistencias están conectadas una a continuación de la otra en el circuito eléctrico, de tal forma que la corriente que atraviesa la primera de ellas será la misma que atraviesa las siguientes. [cite: 135]
+Las resistencias están conectadas una a continuación de la otra en el circuito eléctrico, de tal forma que la corriente que atraviesa la primera de ellas será la misma que atraviesa las siguientes.
 
-![Circuitos con Resistencias en Serie](../img/Tec/4.png)
+<img src="../img/Tec/4.png" alt="Circuitos con Resistencias en Serie" width="350">
 
-- [cite_start]**$I_t$:** La corriente total es igual en todos los componentes del circuito. [cite: 136]
+- **$I_t$:** La corriente total es igual en todos los componentes del circuito.
   $$I_t = I_1 = I_2 = \dots = I_n$$
-- **$V_t$:** La tensión de la fuente, voltaje total, se reparte entre todas las resistencias. [cite: 137]
+- **$V_t$:** La tensión de la fuente, voltaje total, se reparte entre todas las resistencias.
   $$V_t = V_1 + V_2 + \dots + V_n$$
-- **$R_t$:** La resistencia total es la suma directa de los valores de todas las resistencias. [cite: 138]
+- **$R_t$:** La resistencia total es la suma directa de los valores de todas las resistencias.
   $$R_t = R_1 + R_2 + \dots + R_n$$
 
 ---
 
 ### Circuito eléctrico con resistencias en paralelo
 
-[cite_start]Las resistencias están conectadas de tal forma que sus terminales de entrada están unidos entre sí, y sus terminales de salida también, quedando todas conectadas directamente a los mismos dos nodos del circuito. [cite: 139]
+Las resistencias están conectadas de tal forma que sus terminales de entrada están unidos entre sí, y sus terminales de salida también, quedando todas conectadas directamente a los mismos dos nodos del circuito.
 
-![Circuitos con Resistencias en Paralelo](../img/Tec/5.png)
+<img src="../img/Tec/5.png" alt="Circuitos con Resistencias en Paralelo" width="350">
 
-- [cite_start]**$I_t$:** La corriente total se divide entre todos los caminos en paralelo. [cite: 140]
+- **$I_t$:** La corriente total se divide entre todos los caminos en paralelo.
   $$I_t = I_1 + I_2 + \dots + I_n$$
-- [cite_start]**$V_t$:** El voltaje total es exactamente el mismo en cada una de las resistencias, ya que todas comparten los mismos nodos. [cite: 141]
+- **$V_t$:** El voltaje total es exactamente el mismo en cada una de las resistencias, ya que todas comparten los mismos nodos.
   $$V_t = V_1 = V_2 = \dots = V_n$$
-- **$R_t$:** La inversa de la resistencia total es igual a la suma de las inversas de cada una de las resistencias. [cite: 142]
+- **$R_t$:** La inversa de la resistencia total es igual a la suma de las inversas de cada una de las resistencias.
   $$\frac{1}{R_t} = \frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n}$$
 
-[cite_start]O despejada como una sola fracción: [cite: 143]
+O despejada como una sola fracción:
 
 $$R_t = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n}}$$
 
@@ -107,11 +107,11 @@ $$R_t = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n}}$$
 
 ### Ley de Kirchhoff (Ley de Nodos)
 
-[cite_start]La sumatoria de las corrientes eléctricas que entran y salen de un nodo, dando signo positivo (+) a las que entran y signo negativo (-) a las que salen, es igual a 0 en todo instante de tiempo. [cite: 143]
+La sumatoria de las corrientes eléctricas que entran y salen de un nodo, dando signo positivo (+) a las que entran y signo negativo (-) a las que salen, es igual a 0 en todo instante de tiempo.
 
 $$\sum_{k=1}^{n} I_k = 0 \Longleftrightarrow \sum I_{\text{entrada}} = \sum I_{\text{salida}}$$
 
-![Ley de Kirchhoff de Corrientes](../img/Tec/6.png)
+<img src="../img/Tec/6.png" alt="Ley de Kirchhoff de Corrientes" width="350">
 
 ### Ley de Kirchhoff (Ley de Mallas)
 
@@ -121,7 +121,7 @@ $$\sum_{k=1}^{n} V_{k}=0 \Longleftrightarrow \sum V_{\text{subidas}} = \sum V_{\
 
 $$V_{\text{total}} - V_1 - V_2 - \dots - V_n = 0 \Longleftrightarrow V_{\text{total}} = V_1 + V_2 + \dots + V_n$$
 
-![Ley de Kirchhoff de Tensiones](../img/Tec/7.png)
+<img src="../img/Tec/7.png" alt="Ley de Kirchhoff de Tensiones" width="350">
 
 ---
 
@@ -135,11 +135,11 @@ Se lo identifica con la letra **C**, su característica de almacenar cargas se l
 
 **Su símbolo:**
 
-![Símbolo del Capacitor](../img/Tec/8.png)
+<img src="../img/Tec/8.png" alt="Símbolo del Capacitor" width="350">
 
 ### Comportamiento de un condensador en corriente continua
 
-![Gráfico de carga de un Capacitor](../img/Tec/9.png)
+<img src="../img/Tec/9.png" alt="Gráfico de carga de un Capacitor" width="350">
 
 Como se visualiza en el gráfico, la tensión sobre el condensador sube lentamente hasta alcanzar un valor máximo.
 
@@ -153,7 +153,7 @@ También llamados comúnmente bobinas, son elementos eléctricos formados por un
 
 **Su símbolo:**
 
-![Símbolo del Inductor](../img/Tec/10.png)
+<img src="../img/Tec/10.png" alt="Símbolo del Inductor" width="350">
 
 Su comportamiento en corriente continua es acumular energía en forma de corriente eléctrica y una característica muy importante es generar un campo magnético a su alrededor proporcional a la corriente que lo atraviesa. Cuando se quiere quitar esa corriente el inductor responde generando una tensión igual pero de sentido inverso a la que producía la corriente que lo atravesaba. Esta tensión se denomina fuerza contraelectromotriz inducida (Fem). Su valor se mide en **Henrios o Henry** y se lo abrevia con **(H)** o **(Hy)**.
 
@@ -161,7 +161,7 @@ Al decir que genera un campo magnético a su alrededor proporcional al flujo el�
 
 ### Comportamiento de un inductor en corriente continua
 
-![Gráfico de tensión en un Inductor](../img/Tec/11.png)
+<img src="../img/Tec/11.png" alt="Gráfico de tensión en un Inductor" width="350">
 
 Aquí se puede ver que en un primer instante la tensión crece bruscamente sobre el inductor y luego baja hasta tender a 0 Volts (en un conductor ideal).
 
@@ -177,11 +177,11 @@ Aquí se puede ver que en un primer instante la tensión crece bruscamente sobre
 
 El gráfico cartesiano para definir una tensión o una corriente constante es el siguiente:
 
-![Gráfico de Magnitud constante en función del tiempo](../img/Tec/12.png)
+<img src="../img/Tec/12.png" alt="Gráfico de Magnitud constante en función del tiempo" width="350">
 
 Donde en A se lleva el valor de la tensión o de la corriente, t es el tiempo que transcurre y magnitud el valor medido en la unidad correspondiente. Se puede ver que la amplitud no varía. Una tensión o corriente continua es aquella que no cambia de signo a través del tiempo. El gráfico de la Fig 1 corresponde a esta definición. Pero los siguientes gráficos también:
 
-![Gráficos de corriente continua pura y pulsante](../img/Tec/13.png)
+<img src="../img/Tec/13.png" alt="Gráficos de corriente continua pura y pulsante" width="350">
 
 El gráfico de la Fig. 2 respeta la definición. No cambia de signo, es negativa. El gráfico de la Fig 3 también la respeta. No cambia de signo.
 
@@ -189,17 +189,17 @@ Al de la las Fig. 1 y 2 se los denomina **tensión o corriente continua pura**. 
 
 Otro caso es el de la Corriente Alterna. Normalmente llamada así, pero se refiere tanto a corriente como a tensión alterna. En este caso el sentido de circulación de la corriente o la aplicación de la tensión cambia de signo:
 
-![Gráfico de alternancia de signo](../img/Tec/14.png)
+<img src="../img/Tec/14.png" alt="Gráfico de alternancia de signo" width="350">
 
 En este caso se ve que el valor de la tensión o corriente cambia de signo. O sea que en un momento la corriente circulará en un sentido y luego en otro, lo cual se refleja en el eje del tiempo.
 
 El caso específico que estudiaremos en esta materia es el de la **corriente alterna senoidal o sinusoidal**. El gráfico puede verse en la siguiente figura:
 
-![Onda Senoidal](../img/Tec/15.png)
+<img src="../img/Tec/15.png" alt="Onda Senoidal" width="350">
 
 Esta forma de onda surge del círculo trigonométrico donde se reflejan las variaciones de amplitud a través del tiempo que toma la amplitud al ser recorrida y reflejada en un gráfico cartesiano:
 
-![Onda Senoidal con puntos notables](../img/Tec/16.png)
+<img src="../img/Tec/16.png" alt="Onda Senoidal con puntos notables" width="350">
 
 ### Propiedades de la Onda Senoidal
 
@@ -213,7 +213,7 @@ Estas 3 definiciones (más una que se verá más adelante llamada longitud de on
 
 En el siguiente gráfico se reflejan estas 3 definiciones:
 
-![Gráfico explicativo de Período y Ciclo](../img/Tec/17.png)
+<img src="../img/Tec/17.png" alt="Gráfico explicativo de Período y Ciclo" width="350">
 
 En el caso de la Fig. 7, en verde se ve un Ciclo, y el tiempo que tarda en realizarse ($T = \text{período}$) es un segundo. Por lo tanto la Frecuencia es de 1 ciclo por segundo o lo que es lo mismo 1 Hz (Hz).
 
@@ -247,7 +247,7 @@ Donde **f** es la frecuencia en Hertz (Hz) del generador y **L** es el valor del
 
 Gráficamente, $R$, $X_C$ y $X_L$ tienen distinta orientación sobre los ejes. Usando a $R$ como referencia a $0^{\circ}$ sobre el eje X, se dibuja a $X_L$ a $90^{\circ}$ hacia arriba y a $X_C$ a $90^{\circ}$ en sentido opuesto (hacia abajo).
 
-![Esquema Gráfico de Resistencias](../img/Tec/18.png)
+<img src="../img/Tec/18.png" alt="Esquema Gráfico de Resistencias" width="350">
 
 ### Desfasaje en Corriente Alterna
 
@@ -255,7 +255,7 @@ Es el ángulo de separación que se produce entre las ondas de tensión y de cor
 
 **Símbolo del generador:**
 
-![Símbolo del Generador de Alterna](../img/Tec/19.png)
+<img src="../img/Tec/19.png" alt="Símbolo del Generador de Alterna" width="350">
 
 1. **Circuito totalmente resistivo:** La corriente sigue la misma forma de onda que la tensión, por lo que se dice que están en fase. Su corriente es:
    $$I = \frac{V}{R}$$
@@ -286,7 +286,7 @@ Es la resistencia total que un circuito RLC serie presenta al paso de la corrien
 
 Como $X_C$ y $X_L$ están sobre la misma recta de acción pero en sentidos opuestos, primero se restan directamente ($X_L - X_C$). El vector resultante de esa resta se combina a $90^{\circ}$ con la resistencia $R$ para formar la Impedancia ($Z$) y su ángulo de desfasaje ($\rho$).
 
-![Suma Geométrica de Impedancias](../img/Tec/20.png)
+<img src="../img/Tec/20.png" alt="Suma Geométrica de Impedancias" width="350">
 
 ### Suma Analítica (Fórmulas)
 
@@ -314,53 +314,53 @@ $$f_0 = \frac{1}{2\pi \sqrt{L \cdot C}}$$
 
 ### Filtros
 
-[cite_start]Son circuitos compuestos por componentes pasivos (resistencias, condensadores e inductores) que tienen características selectivas de señales[cite: 92]. [cite_start]Esto significa que, según cómo se combinen, permiten el paso de ciertas frecuencias y bloquean otras[cite: 93].
+Son circuitos compuestos por componentes pasivos (resistencias, condensadores e inductores) que tienen características selectivas de señales. Esto significa que, según cómo se combinen, permiten el paso de ciertas frecuencias y bloquean otras.
 
-[cite_start]Convengamos a modo de estudio que Rx será el receptor (y cumplirá la función de R) y G será Tx (y cumplirá la función del transmisor)[cite: 94].
+Convengamos a modo de estudio que Rx será el receptor (y cumplirá la función de R) y G será Tx (y cumplirá la función del transmisor).
 
 ### 1. Circuito Pasa Altos
 
-[cite_start]Presentará una baja resistencia a las frecuencias altas en un circuito[cite: 95]. [cite_start]Se logra conectando un condensador en serie entre el transmisor y el receptor[cite: 96].
+Presentará una baja resistencia a las frecuencias altas en un circuito. Se logra conectando un condensador en serie entre el transmisor y el receptor.
 
-[cite_start]Recordemos la fórmula de $X_C$[cite: 97]:
+Recordemos la fórmula de $X_C$:
 
 $$X_C = \frac{1}{2\pi f C}$$
 
-[cite_start]Por lo tanto, si $f$ sube, $X_C$ baja y por las leyes vistas la corriente será superior por el circuito y la potencia sobre Rx será mayor[cite: 97].
+Por lo tanto, si $f$ sube, $X_C$ baja y por las leyes vistas la corriente será superior por el circuito y la potencia sobre Rx será mayor.
 
-[cite_start]Por el contrario, si la frecuencia $f$ baja, la reactancia sube y si $f$ tiende a 0, $X_C$ tiende a infinito, lo que significa que se comporta como un circuito abierto[cite: 98].
+Por el contrario, si la frecuencia $f$ baja, la reactancia sube y si $f$ tiende a 0, $X_C$ tiende a infinito, lo que significa que se comporta como un circuito abierto.
 
-![Gráfico del Filtro Pasa Altos](../img/Tec/21.png)
+<img src="../img/Tec/21.png" alt="Gráfico del Filtro Pasa Altos" width="350">
 
 ---
 
 ### 2. Circuito Pasa Bajos
 
-[cite_start]Recordemos la fórmula de $X_L$[cite: 98]:
+Recordemos la fórmula de $X_L$:
 
 $$X_L = 2\pi f L$$
 
-[cite_start]Por lo tanto, si la frecuencia $f$ es baja, el valor de la reactancia inductiva será muy bajo, casi no oponiendo resistencia al paso de la corriente eléctrica[cite: 98].
+Por lo tanto, si la frecuencia $f$ es baja, el valor de la reactancia inductiva será muy bajo, casi no oponiendo resistencia al paso de la corriente eléctrica.
 
-[cite_start]Por el contrario, si la frecuencia $f$ sube, el valor de la reactancia inductiva subirá en forma proporcional, llegando a valores muy altos donde se comportará como una gran resistencia no dejando pasar la señal[cite: 99].
+Por el contrario, si la frecuencia $f$ sube, el valor de la reactancia inductiva subirá en forma proporcional, llegando a valores muy altos donde se comportará como una gran resistencia no dejando pasar la señal.
 
-[cite_start]El gráfico muestra la distribución de la potencia de la señal que recibe el receptor a medida que la frecuencia aumenta, cayendo la potencia cuando se supera la frecuencia de corte[cite: 100].
+El gráfico muestra la distribución de la potencia de la señal que recibe el receptor a medida que la frecuencia aumenta, cayendo la potencia cuando se supera la frecuencia de corte.
 
-![Gráfico del Filtro Pasa Bajos](../img/Tec/22.png)
+<img src="../img/Tec/22.png" alt="Gráfico del Filtro Pasa Bajos" width="350">
 
 ---
 
 ### 3. Circuito Pasa Banda
 
-[cite_start]Un circuito RLC serie funciona como un circuito PASA BANDA[cite: 101]. [cite_start]Esto significa que habrá una banda pasante que tendrá un conjunto de frecuencias que tendrán menor Impedancia Z, o sea que tendrá menor resistencia al paso de la señal[cite: 102].
+Un circuito RLC serie funciona como un circuito PASA BANDA. Esto significa que habrá una banda pasante que tendrá un conjunto de frecuencias que tendrán menor Impedancia Z, o sea que tendrá menor resistencia al paso de la señal.
 
-[cite_start]Esa frecuencia será la frecuencia de resonancia, la central, y a sus lados una frecuencia de corte inferior fci y una de corte superior fcs[cite: 103]. [cite_start]Fuera de esos límites se considera que las otras frecuencias están bloqueadas[cite: 104].
+Esa frecuencia será la frecuencia de resonancia, la central, y a sus lados una frecuencia de corte inferior fci y una de corte superior fcs. Fuera de esos límites se considera que las otras frecuencias están bloqueadas.
 
-[cite_start]Al conjunto de frecuencias entre la fci y la fcs se la llama ancho de banda (AB)[cite: 105]. [cite_start]El ancho de banda es el conjunto de frecuencias donde radica la mayor parte de la potencia de la señal y se calcula como el ancho de banda es igual a[cite: 106]:
+Al conjunto de frecuencias entre la fci y la fcs se la llama ancho de banda (AB). El ancho de banda es el conjunto de frecuencias donde radica la mayor parte de la potencia de la señal y se calcula como el ancho de banda es igual a:
 
 $$AB = f_{cs} - f_{ci}$$
 
-![Gráfico del Filtro Pasa Banda](../img/Tec/23.png)
+<img src="../img/Tec/23.png" alt="Gráfico del Filtro Pasa Banda" width="350">
 
 $$\vert Z \vert = \sqrt{R^2 + \left(2\pi f L - \frac{1}{2\pi f C}\right)^2}$$
 
@@ -368,8 +368,8 @@ $$\vert Z \vert = \sqrt{R^2 + \left(2\pi f L - \frac{1}{2\pi f C}\right)^2}$$
 
 ### Frecuencia de Resonancia
 
-[cite_start]La frecuencia de resonancia $f_0$ es donde la transferencia de energía es máxima hacia R (Rx o carga) en una línea de transmisión que se asemeja a un circuito RLC serie[cite: 107]. [cite_start]Eso se dará a cierta frecuencia y esa frecuencia será llamada “frecuencia de resonancia” $f_0$, medida en Hertz (Hz), y tiene la particularidad que en ese caso la corriente por el circuito será máxima[cite: 108].
+La frecuencia de resonancia $f_0$ es donde la transferencia de energía es máxima hacia R (Rx o carga) en una línea de transmisión que se asemeja a un circuito RLC serie. Eso se dará a cierta frecuencia y esa frecuencia será llamada “frecuencia de resonancia” $f_0$, medida en Hertz (Hz), y tiene la particularidad que en ese caso la corriente por el circuito será máxima.
 
-[cite_start]La fórmula para calcular esa frecuencia es[cite: 109]:
+La fórmula para calcular esa frecuencia es:
 
 $$f_0 = \frac{1}{2\pi \sqrt{L \cdot C}}$$
