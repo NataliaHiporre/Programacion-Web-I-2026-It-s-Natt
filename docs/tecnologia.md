@@ -77,7 +77,7 @@ Es aquella en la que los electrones no viajan de un punto a otro, sino que **van
 - **Ejemplo práctico:** Es la corriente que llega a los enchufes de nuestras casas y la que transportan los cables de alta tensión en la calle.
 
 <p align="center">
-  <img src="../img/Tec/0.jpg" alt="Corriente Continua (CC) vs. Corriente Alterna (CA)" width="350">
+  <img src="../img/Tec/0.jpg" alt="Corriente Continua (CC) vs. Corriente Alterna (CA)" width="700">
 </p>
 
 ---
