@@ -111,9 +111,7 @@ La sumatoria de las corrientes eléctricas que entran y salen de un nodo, dando 
 
 $$\sum_{k=1}^{n} I_k = 0 \Longleftrightarrow \sum I_{\text{entrada}} = \sum I_{\text{salida}}$$
 
-$$I_{\text{entrada}} - I_{\text{salida}1} - I_{\text{salida}2} - \dots - I_{\text{salida}n} = 0$$
-
-$$I_{\text{entrada}} = I_{\text{salida}1} + I_{\text{salida}2} + \dots + I_{\text{salida}n}$$
+$$I_{\text{entrada}} - I_{\text{salida}1} - I_{\text{salida}2} - \dots - I_{\text{salida}n} = 0 \Longleftrightarrow I_{\text{entrada}} = I_{\text{salida}1} + I_{\text{salida}2} + \dots + I_{\text{salida}n}$$
 
 <img src="../img/Tec/6.png" alt="Ley de Kirchhoff de Corrientes" width="350">
 
